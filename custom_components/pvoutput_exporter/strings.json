@@ -1,0 +1,24 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "PVOutput API key",
+                    "system_id": "PVOutput System id"
+                },
+                "description": "Fill in the information for you pvoutput account"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "api_key": "PVOutput API key",
+                    "system_id": "PVOutput System id"
+                },
+                "description": "Fill in the information for you pvoutput account"
+            }
+        }
+    }
+}

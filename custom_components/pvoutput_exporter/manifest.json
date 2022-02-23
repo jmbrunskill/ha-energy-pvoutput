@@ -1,0 +1,15 @@
+{
+  "domain": "pvoutput_exporter",
+  "name": "pvoutput exporter",
+  "version": "0.1",
+  "config_flow": true,
+  "documentation": "https://github.com/jmbrunskill/ha-pvoutput-exporter",
+  "issue_tracker": "https://github.com/jmbrunskill/ha-pvoutput-exporter/issues",
+  "requirements": ["aiohttp>=3.6.2", "datetime>=4.3", "isodate>=0.6.0"],
+  "dependencies": [],
+  "after_dependencies": ["http"],
+  "iot_class": "cloud_push",
+  "codeowners": [
+    "@jmbrunskill"
+  ]
+}
